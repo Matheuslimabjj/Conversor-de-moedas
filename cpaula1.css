@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #94e7ff;
+    text-shadow: 2px 2px 10px #e600e2;
+    position: relative;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+  }
+  
+  /* Container com imagem background */
+  .container {
+    background: url('https://i.postimg.cc/VNJ7zJ2X/um-mercador-atendendo-um-cliente-em-um-mercado-p-blico-ao-estilo-do-anime-de-dungeon-meshi-com-perso.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* conteúdo da div para texto e botão */
+  .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  /* Define o estilo do botão */
+  button {
+    background-color: #fffd0c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+    animation: grow-shrink 2s infinite ease-in-out; /* Mantém a animação de pulsar */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Suaviza a mudança de cor no hover */
+  }
+  
+  button:hover {
+    background-color: #f2180f; /* Nova cor ao passar o mouse */
+    color: white; /* Altera a cor do texto ao passar o mouse */
+  }
+  
+  /* Define os frames da animação */
+  @keyframes grow-shrink {
+    0% {
+      transform: scale(1); /* Tamanho normal */
+    }
+    50% {
+      transform: scale(1.2); /* Cresce 20% */
+    }
+    100% {
+      transform: scale(1); /* Volta ao tamanho original */
+    }
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
