@@ -20,3 +20,5 @@ JavaScript para a lógica de conversão de moedas
 
 Créditos
 Desenvolvido por Matheus como parte da Imersão Dev Alura 2025.
+
+OBS: Lembrando que os projetos foram feitos totalmente no codepen!
